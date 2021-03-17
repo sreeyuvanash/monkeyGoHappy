@@ -99,6 +99,17 @@ function draw() {
     textSize(50)
     textFont(myFont)
     text("YOU LOOSE",250,300)
+       textFont(myFont)
+
+    stroke("white")
+    fill("white")
+    strokeWeight(0);
+    textSize(20)
+    text("sec "+survivalTime,300,200)
+  
+    strokeWeight(0);
+    textSize(20)
+    text("score  "+score,450,200)
   }
 
 
