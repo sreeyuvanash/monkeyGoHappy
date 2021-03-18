@@ -99,7 +99,8 @@ function draw() {
     textSize(50)
     textFont(myFont)
     text("YOU LOOSE",250,300)
-       textFont(myFont)
+
+    textFont(myFont)
 
     stroke("white")
     fill("white")
